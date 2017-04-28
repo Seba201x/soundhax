@@ -59,30 +59,30 @@ heap overflow -> arbitrary write to free list -> stack overflow -> gspwn -> code
 
 ## Thanks
 
-Nedwill - for creating soundhax
+Nedwill - for creating soundhax (me)
 
-Subv and Citra authors - for help emulating sound, this was invaluable (for nedwill)
+Subv and Citra authors - for help emulating sound, this was invaluable (nedwill)
 
-plutoo   - stage 2 shellcode (for nedwill)
+plutoo   - stage 2 shellcode (nedwill)
 
-yellows8 - help with gpu address translation for gspwn, initial JPN support, finished KOR support (for nedwill)
+yellows8 - help with gpu address translation for gspwn, initial JPN support, finished KOR support (nedwill)
 
-smea     - homebrew launcher (for nedwill)
+smea     - homebrew launcher (nedwill)
 
-d3m3vilurr - EUR, JPN, partial KOR support (for nedwill)
+d3m3vilurr - EUR, JPN, partial KOR support (nedwill)
 
-TuxSH - O3DS offset (for nedwill)
+TuxSH - O3DS offset (nedwill)
 
-Konng - Testing EUR payloads (for nedwill)
+Konng - Testing EUR payloads (nedwill)
 
-\#cakey - advice and support (for nedwill)
+\#cakey - advice and support (nedwill)
 
-PPP - teaching me everything I know (for nedwill)
+PPP - teaching me everything I know (nedwill)
 
-geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting (for nedwill)
+geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting (nedwill)
 
-Jano - for showing me the 3ds homebrew world (for me)
+Jano - for showing me the 3ds homebrew world (me)
 
-GatoQl - Por niuna wea de estas 
+GatoQl - Por niuna wea de estas weas pero igual (me) 
 
-Francaca - for stealing me 200 usd! and manipulating me (for me sadly)
+Francaca - for stealing me 200 usd! and manipulating me (me sadly)
