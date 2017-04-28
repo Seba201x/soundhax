@@ -6,10 +6,11 @@ Need to download [otherappold.bin](https://smealum.github.io/3ds/#otherapp) with
 ## Installation
 1. Download the relevant soundhax-region-console.m4a file for your device.
 2. Save the soundhax song file and copy to the root of your SD.
-## NEW 3DS ONLY
+## 3. NEW 3DS ONLY
 Download the [otherapp payload](https://smealum.github.io/3ds/) for your NEW 3DS version, rename it to `otherappnew.bin`, and copy it to the root of the SD card.
-## OLD 3DS ONLY
+## 3. OLD 3DS ONLY
 Download the [otherapp payload](https://smealum.github.io/3ds/) for your OLD 3DS version, rename it to `otherappold.bin`, and copy it to the root of the SD card.
+## Continue Installation
 4. Download the [Homebrew Starter Kit](https://smealum.github.io/ninjhax2/starter.zip) and unzip to the root of the SD card (if it is not there already).
 5. Insert the SD card into the 3DS and start Nintendo 3DS Sound.
 6. Locate your new song and play it to start the Homebrew Launcher!
