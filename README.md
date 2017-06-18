@@ -20,7 +20,10 @@ Fixing the annoying bird: Click through all of the bird tips then close the app 
 ## Build
 Install [Python 2.7](https://python.org) and [devkitpro](https://sourceforge.net/projects/devkitpro/).
 
-Then run `python exp.py <usa/eur/jpn/kor> <new/old>` to generate `soundhax-*.m4a`.
+# If you want to point to "otherappold"
+run `python expold.py <usa/eur/jpn/kor> old` to generate `soundhax-*-o3ds.m4a`
+# If you want to point to "otherappnew"
+run `python expnew.py <usa/eur/jpn/kor> new` to generate `soundhax-*-n3ds.m4a`
 
 ## Writeup
 
@@ -57,32 +60,28 @@ In summary, the process looks like this:
 
 heap overflow -> arbitrary write to free list -> stack overflow -> gspwn -> code execution
 
-## Thanks
+## Thanks (Original)
+Subv and Citra authors - for help emulating sound, this was invaluable
 
-Nedwill - for creating soundhax (me)
+plutoo - stage 2 shellcode
 
-Subv and Citra authors - for help emulating sound, this was invaluable (nedwill)
+yellows8 - help with gpu address translation for gspwn, initial JPN support, finished KOR support
 
-plutoo   - stage 2 shellcode (nedwill)
+smea - homebrew launcher
 
-yellows8 - help with gpu address translation for gspwn, initial JPN support, finished KOR support (nedwill)
+d3m3vilurr - EUR, JPN, partial KOR support
 
-smea     - homebrew launcher (nedwill)
+TuxSH - O3DS offset
 
-d3m3vilurr - EUR, JPN, partial KOR support (nedwill)
+Konng - Testing EUR payloads
 
-TuxSH - O3DS offset (nedwill)
+#cakey - advice and support
 
-Konng - Testing EUR payloads (nedwill)
+PPP - teaching me everything I know
 
-\#cakey - advice and support (nedwill)
+geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting
 
-PPP - teaching me everything I know (nedwill)
-
-geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting (nedwill)
-
-Jano - for showing me the 3ds homebrew world (me)
-
-GatoQl - Por niuna wea de estas weas pero igual (me) 
-
-Francaca - for stealing me 200 usd! and manipulating me (me sadly)
+## Thanks (Me, Seba201x)
+Jano - for showing me the 3ds homebrew world
+Gato - Moral help in everything i need
+Alice (Ami)  - Stole my heart :)
