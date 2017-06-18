@@ -20,9 +20,9 @@ Fixing the annoying bird: Click through all of the bird tips then close the app 
 ## Build
 Install [Python 2.7](https://python.org) and [devkitpro](https://sourceforge.net/projects/devkitpro/).
 
-# If you want to point to "otherappold"
+ If you want to point to "otherappold"
 run `python expold.py <usa/eur/jpn/kor> old` to generate `soundhax-*-o3ds.m4a`
-# If you want to point to "otherappnew"
+ If you want to point to "otherappnew"
 run `python expnew.py <usa/eur/jpn/kor> new` to generate `soundhax-*-n3ds.m4a`
 
 ## Writeup
@@ -83,5 +83,7 @@ geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting
 
 ## Thanks (Me, Seba201x)
 Jano - for showing me the 3ds homebrew world
+
 Gato - Moral help in everything i need
-Alice (Ami)  - Stole my heart :)
+
+Alice (Ami)  - for stealing my heart :)
