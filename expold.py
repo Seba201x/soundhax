@@ -60,7 +60,7 @@ r2 = where - 12
 
 UNICODE_MARKER = '\xff\xfe' # unicode marker
 
-exp = "<\x003\x00 \x00S\x00e\x00b\x00a\x002\x000\x00l\x00x\x00"
+exp = "<\x00O\x00 \x00S\x00e\x00b\x00a\x002\x000\x00l\x00x\x00"
 exp += " \x00"*((772-len(exp)) / 2)
 assert len(exp) == 772
 

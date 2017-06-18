@@ -164,7 +164,7 @@ forever:
 
 .pool
 otherapp_str:
-    .string16 "$sndsd:/otherappold.bin\0"
+    .string16 "$sndsd:/otherappnew.bin\0"
     .align 4
 
 /* memcpy32: Copy r2 bytes from r1 to r0, 32 bits at a time. */
