@@ -22,6 +22,7 @@ Install [Python 2.7](https://python.org) and [devkitpro](https://sourceforge.net
 
  If you want to point to "otherappold"
 run `python expold.py <usa/eur/jpn/kor> old` to generate `soundhax-*-o3ds.m4a`
+ 
  If you want to point to "otherappnew"
 run `python expnew.py <usa/eur/jpn/kor> new` to generate `soundhax-*-n3ds.m4a`
 
