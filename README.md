@@ -87,4 +87,4 @@ Jano - for showing me the 3ds homebrew world
 
 Gato - Moral help in everything i need
 
-Alice (Ami)  - for stealing my heart and being the best person in the world.
+Alice (Ami)  - for stealing my heart and being the best person in the world <3.
