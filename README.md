@@ -1,39 +1,16 @@
-# Soundhax
-
-A heap overflow in tag processing leads to code execution when a specially-
-crafted m4a file is loaded by Nintendo 3DS Sound.
-
-This bug is particularly good, because as far as I can tell it is the first
-ever homebrew exploit that is free, offline, and works on every version
-of the firmware for which the sound app is available.
-
-## Regions and Versions
-
-| Version | N3DS | O3DS/2DS |
-| --- | --- | --- |
-| US 9.0-11.2 | ✓ | ✓ |
-| JPN 9.0-11.2 | ✓ | ✓ |
-| EUR 9.0-11.2 | ✓ | ✓ |
-| KOR 9.6-11.2 | ✓ | ✓ |
-| CHN ?-11.2 | ✗ | ✗ |
-| TWN ?-11.2 | ✗ | ✗ |
-
-If your box is checked, then put [otherapp.bin](https://smealum.github.io/3ds/#otherapp) on the root of your SD card along with soundhax.m4a and launch the song from the sound player.
-
-While soundhax itself can be used with pre-v9.0(pre-v9.6 with KOR), \*hax payload doesn't support pre-v9.0(pre-v9.6 with KOR) currently.
-
-## Status for KOR/CHN/TWN
-
-| Status | KOR | CHN | TWN |
-| --- | --- | --- | --- |
-| bug confirmed | ✓ | ✗ | ✗ |
-| sound constants | ✓ | ✗ | ✗ |
-| stage2 payload constants | ✓ | ✗ | ✗ |
+## NEW 3DS
+Need to download [otherappnew.bin](https://smealum.github.io/3ds/#otherapp) with your firmware version and rename it to otherappnew.bin
+## OLD 3DS
+Need to download [otherappold.bin](https://smealum.github.io/3ds/#otherapp) with your firmware version and rename it to otherappold.bin
 
 ## Installation
 1. Download the relevant soundhax-region-console.m4a file for your device.
 2. Save the soundhax song file and copy to the root of your SD.
-3. Download the [otherapp payload](https://smealum.github.io/3ds/) for your 3DS version, rename it to `otherapp.bin`, and copy it to the root of the SD card.
+## 3. NEW 3DS ONLY
+Download the [otherapp payload](https://smealum.github.io/3ds/) for your NEW 3DS version, rename it to `otherappnew.bin`, and copy it to the root of the SD card.
+## 3. OLD 3DS ONLY
+Download the [otherapp payload](https://smealum.github.io/3ds/) for your OLD 3DS version, rename it to `otherappold.bin`, and copy it to the root of the SD card.
+## Continue Installation
 4. Download the [Homebrew Starter Kit](https://smealum.github.io/ninjhax2/starter.zip) and unzip to the root of the SD card (if it is not there already).
 5. Insert the SD card into the 3DS and start Nintendo 3DS Sound.
 6. Locate your new song and play it to start the Homebrew Launcher!
@@ -43,7 +20,11 @@ Fixing the annoying bird: Click through all of the bird tips then close the app 
 ## Build
 Install [Python 2.7](https://python.org) and [devkitpro](https://sourceforge.net/projects/devkitpro/).
 
-Then run `python exp.py <usa/eur/jpn/kor> <new/old>` to generate `soundhax-*.m4a`.
+ If you want to point to "otherappold"
+run `python expold.py <usa/eur/jpn/kor> old` to generate `soundhax-*-o3ds.m4a`
+ 
+ If you want to point to "otherappnew"
+run `python expnew.py <usa/eur/jpn/kor> new` to generate `soundhax-*-n3ds.m4a`
 
 ## Writeup
 
@@ -80,14 +61,14 @@ In summary, the process looks like this:
 
 heap overflow -> arbitrary write to free list -> stack overflow -> gspwn -> code execution
 
-## Thanks
+## Thanks (Original)
 Subv and Citra authors - for help emulating sound, this was invaluable
 
-plutoo   - stage 2 shellcode
+plutoo - stage 2 shellcode
 
 yellows8 - help with gpu address translation for gspwn, initial JPN support, finished KOR support
 
-smea     - homebrew launcher
+smea - homebrew launcher
 
 d3m3vilurr - EUR, JPN, partial KOR support
 
@@ -95,8 +76,15 @@ TuxSH - O3DS offset
 
 Konng - Testing EUR payloads
 
-\#cakey - advice and support
+#cakey - advice and support
 
 PPP - teaching me everything I know
 
 geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting
+
+## Thanks (Me, Seba201x)
+Jano - for showing me the 3ds homebrew world
+
+Gato - Moral help in everything i need
+
+Alice (Ami)  - for stealing my heart and being the best person in the world <3.
