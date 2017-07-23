@@ -86,5 +86,3 @@ geohot, comex, j00ru, loki, project zero - inspiring me to pursue bug hunting
 Jano - for showing me the 3ds homebrew world
 
 Gato - Moral help in everything i need
-
-Alice (Ami)  - for stealing my heart and being the best person in the world <3.
